@@ -5,13 +5,12 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import './footer.css'
 const Footer = () => {
   return (
-    <div>
-      <div className="footer_outercontainer">
+      <div className="footer_outer_container">
         <div className="footer_inner_container">
           <div className="footer_icons">
-            <FacebookOutlinedIcon/>
-            <InstagramIcon/>
-            <YouTubeIcon/>
+            <FacebookOutlinedIcon />
+            <InstagramIcon />
+            <YouTubeIcon />
           </div>
           <div className="footer_data">
             <div>
@@ -32,7 +31,7 @@ const Footer = () => {
               <ul>
                 <li>Gift Cards</li>
                 <li>Terms of UseS</li>
-                <li>Corrporate Information</li> 
+                <li>Corrporate Information</li>
               </ul>
             </div>
             <div>
@@ -42,18 +41,18 @@ const Footer = () => {
                 <li>Contact Us</li>
               </ul>
             </div>
-            <div className="service_code"></div>
-            <p>
-              service_code
-            </p>
-            </div>
-            <div className="copy_write">
-              Recopying 1997-2024 Netflix, Inc
           </div>
-        </div>
+          <div className="service_code"> 
+            <p>
+            service_code
+            </p>
+          </div>
+        <div className="copy_write">
+          &copy; 1997-2024 Netflix, Inc.
+          </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Footer
